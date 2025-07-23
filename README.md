@@ -19,7 +19,7 @@ Ford-Fulkerson	- Maximum flow using BFS (Edmonds-Karp)<br>- Residual graph outpu
 Shortest Path in DAGs	- Validates DAG using DFS<br>- Topological order for edge relaxation<br>- Distance & parent arrays<br>- Supports single-source shortest paths\
 
 
-🧠 Design Principles
+# 🧠 Design Principles
 
 🧪 Validation: Every algorithm checks for graph validity (e.g. directedness, connectivity, negative weights, source/sink validity).
 
