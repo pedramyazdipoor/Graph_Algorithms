@@ -82,17 +82,10 @@ Shortest Path in DAGs
 
 ## 📁 Project Structure (Example)
 
-graph-algorithms/
-├── dfs/
-│   ├── main.py
-│   ├── dfs.py
-│   ├── utils.py
-│   └── .gitignore
-├── bfs/
 ├── dijkstra/
-│   ├── binary_heap.py
-│   ├── fibonacci_heap.py
-│   ├── main.py
+│   ├── Dijkstra_minHeap.py
+│   ├── Dijkstra_fiboHeap.py
+│   ├── __init__.py
 │   └── ...
 ...
 
@@ -109,15 +102,12 @@ All code is written in Python 3, and tested on various graph configurations.
 
 ## 🧪 How to Run
 
-Navigate to each algorithm folder and run:
+Navigate to each algorithm folder and if main.py exists run:
 
 python main.py
 
-If a venv/ folder exists:
+otherwise run the relevant algorithm.py for each algorithm.
 
-source venv/bin/activate  # Linux/macOS
-venv\Scripts\activate     # Windows
-python main.py
 
 ## 📄 License
 
