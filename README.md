@@ -7,15 +7,25 @@ This repository contains Python implementations of 11 core graph algorithms, eac
 Algorithm	Features
 
 DFS (Depth-First Search)	- Discovery & finish time<br>- Edge classification (tree, back, forward, cross)<br>- Topological sort<br>- Articulation points<br>- Cycle detection<br>- Strongly connected components\
+
 BFS (Breadth-First Search)	- Visitation order<br>- Edge classification<br>- Distance from source<br>- Cycle detection<br>- Bipartite check (for undirected graphs)<br>- Shortest path in unweighted graphs\
+
 Kruskal’s MST	- Minimum spanning tree<br>- Edge list with total cost<br>- Validates undirectedness & connectivity using DFS\
+
 Prim’s MST	- Implemented with Binary Min-Heap & Fibonacci Heap<br>- Output comparison included\
+
 Dijkstra’s Algorithm	- Implemented with both Binary Min-Heap & Fibonacci Heap<br>- No negative edge allowed<br>- Parent & distance arrays<br>- Output comparison included\
+
 Bellman-Ford Algorithm	- Handles negative weights<br>- Detects negative cycles<br>- Distance & parent arrays<br>- Path reconstruction\
+
 Floyd-Warshall	- All-pairs shortest paths<br>- Negative cycle detection<br>- Path reconstruction<br>- Transitive closure\
+
 Repeated Matrix Squaring	- Faster all-pairs shortest paths (compared to Floyd)<br>- Same output except no transitive closure\
+
 Johnson’s Algorithm	- All-pairs shortest paths<br>- Uses Bellman-Ford for reweighting and Dijkstra with Fibonacci Heap\
+
 Ford-Fulkerson	- Maximum flow using BFS (Edmonds-Karp)<br>- Residual graph output<br>- Input validation: no negative capacities, source has no in-edges, sink has no out-edges\
+
 Shortest Path in DAGs	- Validates DAG using DFS<br>- Topological order for edge relaxation<br>- Distance & parent arrays<br>- Supports single-source shortest paths\
 
 
