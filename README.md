@@ -1,4 +1,4 @@
-## 📚 Graph Algorithms in Python
+# 📚 Graph Algorithms in Python
 
 This repository contains Python implementations of 11 core graph algorithms, each placed in its own directory with modular structure and independent dependencies.
 
@@ -19,7 +19,7 @@ Ford-Fulkerson	- Maximum flow using BFS (Edmonds-Karp)<br>- Residual graph outpu
 Shortest Path in DAGs	- Validates DAG using DFS<br>- Topological order for edge relaxation<br>- Distance & parent arrays<br>- Supports single-source shortest paths\
 
 
-# 🧠 Design Principles
+## 🧠 Design Principles
 
 🧪 Validation: Every algorithm checks for graph validity (e.g. directedness, connectivity, negative weights, source/sink validity).
 
@@ -30,7 +30,7 @@ Shortest Path in DAGs	- Validates DAG using DFS<br>- Topological order for edge 
 🧵 Clean Output: Each main file prints relevant data structures (like parent and distance arrays, MST edges and cost, flow/residual graphs) in a readable format.
 
 
-📁 Project Structure (Example)
+## 📁 Project Structure (Example)
 
 graph-algorithms/
 ├── dfs/
@@ -46,7 +46,7 @@ graph-algorithms/
 │   └── ...
 ...
 
-📌 Notes
+## 📌 Notes
 
 The Fibonacci heap is implemented manually and optimized for Dijkstra and Prim.
 
@@ -57,7 +57,7 @@ Some algorithms (like Kruskal, Johnson) rely on helper algorithms (like DFS, Bel
 All code is written in Python 3, and tested on various graph configurations.
 
 
-🧪 How to Run
+## 🧪 How to Run
 
 Navigate to each algorithm folder and run:
 
@@ -69,6 +69,6 @@ source venv/bin/activate  # Linux/macOS
 venv\Scripts\activate     # Windows
 python main.py
 
-📄 License
+## 📄 License
 
 This project is open-source and free to use for educational or research purposes.
