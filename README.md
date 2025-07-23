@@ -6,9 +6,9 @@ This repository contains Python implementations of 11 core graph algorithms, eac
 
 Algorithm	Features
 
-DFS (Depth-First Search)	- Discovery & finish time<br>- Edge classification (tree, back, forward, cross)<br>- Topological sort<br>- Articulation points<br>- Cycle detection<br>- Strongly connected components
+DFS (Depth-First Search)\	- Discovery & finish time<br>- Edge classification (tree, back, forward, cross)<br>- Topological sort<br>- Articulation points<br>- Cycle detection<br>- Strongly connected components
 
-BFS (Breadth-First Search)	- Visitation order<br>- Edge classification<br>- Distance from source<br>- Cycle detection<br>- Bipartite check (for undirected graphs)<br>- Shortest path in unweighted graphs
+BFS (Breadth-First Search)\	- Visitation order<br>- Edge classification<br>- Distance from source<br>- Cycle detection<br>- Bipartite check (for undirected graphs)<br>- Shortest path in unweighted graphs
 
 Kruskal’s MST	- Minimum spanning tree<br>- Edge list with total cost<br>- Validates undirectedness & connectivity using DFS
 
