@@ -80,15 +80,6 @@ Shortest Path in DAGs
 🧵 Clean Output: Each main file prints relevant data structures (like parent and distance arrays, MST edges and cost, flow/residual graphs) in a readable format.
 
 
-## 📁 Project Structure (Example)
-
-├── dijkstra/
-│   ├── Dijkstra_minHeap.py
-│   ├── Dijkstra_fiboHeap.py
-│   ├── __init__.py
-│   └── ...
-...
-
 ## 📌 Notes
 
 The Fibonacci heap is implemented manually and optimized for Dijkstra and Prim.
