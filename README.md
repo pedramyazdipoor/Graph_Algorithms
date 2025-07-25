@@ -1,6 +1,6 @@
 # 📚 Graph Algorithms in Python
 
-This repository contains Python implementations of 11 core graph algorithms, each placed in its own directory with modular structure and independent dependencies.
+This repository contains my Python implementations of 11 core graph algorithms, each placed in its own directory with modular structure and independent dependencies.
 
 🚀 Implemented Algorithms
 
