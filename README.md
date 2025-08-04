@@ -4,8 +4,6 @@ This repository contains my Python implementations of 11 core graph algorithms, 
 
 🚀 Implemented Algorithms
 
-Algorithm	Features
-
 DFS (Depth-First Search)
 - Discovery & finish time<br>
 - Edge classification (tree, back, forward, cross)<br>
